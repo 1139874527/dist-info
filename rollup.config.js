@@ -1,5 +1,5 @@
 "use strict";
-import { terser } from "rollup-plugin-terser";
+const { terser } = require("rollup-plugin-terser");
 module.exports = {
   input: "./index.js",
   output: {
