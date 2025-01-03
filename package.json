@@ -1,0 +1,29 @@
+{
+  "author": {
+    "name": "gcshi",
+    "email": "1139874527@qq.com"
+  },
+  "description": "本地或线上打包时，将构建信息注入网页的一个插件",
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "keywords": [
+    "vite-plugin",
+    "webpack-plugin",
+    "vite",
+    "webpack",
+    "打包信息注入"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "dist-info",
+  "private": false,
+  "repository": {
+    "type": "nodejs",
+    "url": "https://gitee.com/sxshi/dist-info-webpack-plugin"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "version": "0.0.2"
+}
