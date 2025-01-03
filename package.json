@@ -21,7 +21,7 @@
   "private": false,
   "repository": {
     "type": "nodejs",
-    "url": "https://gitee.com/sxshi/dist-info-webpack-plugin"
+    "url": "https://gitee.com/sxshi/dist-info"
   },
   "scripts": {
     "build": "rollup -c"
